@@ -1,0 +1,30 @@
+---
+AllowedValues:
+- 1
+- 3
+- 5
+- 9
+DeviceName: /dev/tty1
+DeviceParams:
+    comport: com1
+    baudrate: 9600
+    addconfig: N,8,1
+
+---
+receipt: Oz-Ware Purchase Invoice
+date: 2007-08-06
+customer:
+    given:   Dorothy
+    family:  Gale
+
+items:
+    - part_no:   A4786
+      descrip:   Water Bucket (Filled)
+      price:     1.47
+      quantity:  4
+
+    - part_no:   E1628
+      descrip:   High Heeled "Ruby" Slippers
+      size:      8
+      price:     100.27
+      quantity:  1

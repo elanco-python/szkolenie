@@ -1,0 +1,14 @@
+{
+  "port" : "/dev/tty1",
+  "speed" : 9600,
+  "parity" : "odd",
+  "stopbits" : 1,
+  "databits" : 8,
+
+  "allow_characters" : [ 1, 4, 5, 9],
+
+  "device" : {
+     "name" : "Generic serial port",
+     "uart" : "None"
+  }
+}
