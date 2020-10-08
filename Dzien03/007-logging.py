@@ -12,7 +12,8 @@ logging.basicConfig(
     handlers=[
         logging.StreamHandler(),
         logging.FileHandler("app.log")
-    ]
+    ],
+    datefmt="%Y-%m-%dT%H:%M:%S%z"
 )
 
 logging.debug("Debug message")
