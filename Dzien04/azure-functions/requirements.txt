@@ -1,0 +1,6 @@
+azure-functions==1.4.0
+decorator==4.4.2
+Pillow==7.2.0
+qrcode==6.1
+six==1.15.0
+validators==0.18.1
